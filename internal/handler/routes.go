@@ -19,6 +19,7 @@ type route struct {
 // Routes holds configurations related to API of this project
 type Routes struct {
 	v1 []route
+	v2 []route
 }
 
 func (r Routes) InitRoute() http.Handler {
