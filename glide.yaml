@@ -1,0 +1,4 @@
+package: Glide
+import:
+- package: github.com/Masterminds/cookoo
+  version: v1.3.0
