@@ -1,10 +1,10 @@
 hash: 7a0ffe9e7dc050270a8ac3fbb07f8301394fc508aecf6960b939fc8061753a4e
-updated: 2018-12-30T01:41:14.923052+07:00
+updated: 2019-01-07T12:54:47.232823+07:00
 imports:
 - name: github.com/gin-contrib/sse
   version: 22d885f9ecc78bf4ee5d72b937e4bbcdc58e8cae
 - name: github.com/gin-gonic/gin
-  version: 85b92cdf4bc9bf33fd6f199ff866a1eed3511c80
+  version: d8fb18c33b1657271b6302e0899d033902012f49
   subpackages:
   - binding
   - internal/json
@@ -13,21 +13,14 @@ imports:
   version: 1d3f30b51784bec5aad268e59fd3c2fc1c2fe73f
   subpackages:
   - proto
+- name: github.com/howeyc/crc16
+  version: 2b2a61e366a66d3efb279e46176e7291001e0354
 - name: github.com/json-iterator/go
   version: d05f387f50c0c406889b62cb5ec51c76a64d89ee
 - name: github.com/konsorten/go-windows-terminal-sequences
   version: 5c8c8bd35d3832f5d134ae1e1e375b69a4d25242
-- name: github.com/labstack/echo
-  version: 3f8b45c8d0dd840198a6b24b3393e5ec553dcb85
-- name: github.com/labstack/gommon
-  version: 34167a09256a4fcb5d26dd88d02b7b353d86838a
-  subpackages:
-  - color
-  - log
 - name: github.com/Masterminds/cookoo
   version: 78aa11ce75e257c51be7ea945edb84cf19c4a6de
-- name: github.com/mattn/go-colorable
-  version: efa589957cd060542a26d2dd7832fd6a6c6c3ade
 - name: github.com/mattn/go-isatty
   version: 3fb116b820352b7f0c281308a4d6250c22d94e27
 - name: github.com/modern-go/concurrent
@@ -37,7 +30,7 @@ imports:
 - name: github.com/satori/go.uuid
   version: b2ce2384e17bbe0c6d34077efa39dbab3e09123b
 - name: github.com/sirupsen/logrus
-  version: 6180652bb05834ae178c93911ddae14b689408b7
+  version: eef6b768ab01a0598a0a6db97bad2a37d31df1d1
 - name: github.com/teera123/gin
   version: 35f306517e6131389e6c003f73f9ca06553c4f54
   subpackages:
@@ -46,18 +39,12 @@ imports:
   version: 772ced7fd4c2f6322c07537a9a93b68d74551fa6
   subpackages:
   - codec
-- name: github.com/valyala/bytebufferpool
-  version: cdfbe9377474227bb42120c1e22fd4433e7f69bf
-- name: github.com/valyala/fasttemplate
-  version: dcecefd839c4193db0d35b88ec65b4c12d360ab0
 - name: golang.org/x/crypto
-  version: 505ab145d0a99da450461ae2c1a9f6cd10d1f447
+  version: ff983b9c42bc9fbf91556e191cc8efb585c16908
   subpackages:
-  - acme
-  - acme/autocert
   - ssh/terminal
 - name: golang.org/x/sys
-  version: 9a3f9b0469bbc6b8802087ae5c0af9f61502de01
+  version: 1775db3f06b568179d273425900dd09125831dd5
   subpackages:
   - unix
   - windows
